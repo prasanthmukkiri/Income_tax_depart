@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+.nav {
+    background: rgb(95, 159, 88);
+    margin-left: -38px;
+    margin-bottom: 30px;
+}
+
+.nav a{
+    padding: 14px 16px;
+    
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 1.5em;
+    display: block;
+    float: right;
+
+}
+
+.nav a:hover{
+    background: #ddd;
+    color: blue;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 8px 8px 8px 8px;
+}
+
+.c1 {
+    color: rgb(133, 17, 17);
+}
+
+h1{
+    text-align: center;
+    color: #000;
+
+}
+
+marquee {
+    font-size: 20px;
+  }
+
+.signin{
+    position:absolute;
+    color: rgb(2, 57, 111);
+    left: 3%;
+    top: 270px;
+    font-style: initial;
+    font-weight:10px;
+    font-size: 40px;
+}
+
+.container1{
+    box-sizing: border-box;
+    position: relative;
+    top: 80px;
+    left: 5px;
+    width: 240px;
+    height: 160px;
+    border: 1px dotted #1f212348;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13px;
+    transition-property:background;
+    transition-duration: 0.5s ;
+    transition-timing-function: ease-in-out;
+
+}
+
+.container1:hover{
+    background: #383a3e27;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px 7px 0 #1f212348,0 10px 10px 0 #1f212348;
+
+}
+
+.box{
+    outline: none;
+    border: 1px solid #383a3e;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 6px;
+}
+
+.box:hover{
+    border: 1.2px solid #0075ff;
+    box-shadow: 0 7px 7px 0 #1f212348,0 10px 10px 0 #1f212348 ;
+}
+
+.box:focus{
+    border-top: none;
+    border-left: none;
+    border-bottom: 3 px solid #0075ff;
+    border-right: 5px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+
+
+}
+
+.loginbtn{
+    width:100px;
+    height: 30px;
+    background: white;
+    border: 1px solid #383a3e;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 5px;
+}
+
+.loginbtn:hover{
+
+    background: #0075ff;
+    border: 1.2px solid #0075ff;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 #1f212348, 0 10px 10px 0 #1f212348 ;
+
+
+
+}
+.container2{
+    position: relative;
+    top: 80px;
+    left: 70px;
+    width: 250px;
+    height: 20px;
+    padding: 5px 5px;
+    font-size: 13px;
+
+
+}
+
+.check{
+    position: relative;
+    right: 60px;
+}
+
+.p1{
+    position: relative;
+    bottom: -2px;
+    left: -60px;
+    font-size: 15px;
+    
+    
+}
+
+.p2{
+    position: relative;
+    bottom: -5px;
+    right: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.p2:hover{
+    color:#0075ff
+
+}
+
+
+.p4{
+    position: relative;
+    bottom: -16px;
+    font-size: 23px;
+    right: 43px;
+
+
+}
+
+
+
+
+.container3{
+    position: relative;
+    
+    top: 205px;
+    left: 10px;
+    width: 95px;
+    height: 23px;
+    background: #0075ff;
+    border-radius: 5px;
+}
+
+.t1{
+    color: white;
+    font-size: 11px;
+    position:relative;
+    bottom: 29px;
+    right: -25px;
+}
+
+.pic1{
+    position: relative;
+    right: 15px;
+    width: 23px;
+    height: 22px;
+    bottom: 1.5px;
+}
+
+.container3:hover{
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 #1f212348, 0 10px 10px 0 #1f212348;
+
+
+}
+
+
+.container4{
+    position: relative;
+    top: 182px;
+    left: 135px;
+    width: 95px;
+    height: 23px;
+    background:white;
+    border-radius: 5px;
+}
+
+.t2{
+    color: rgb(8, 8, 8);
+    font-size: 11px;
+    position: relative;
+    bottom: 10px;
+    right: 31px;
+}
+
+.pic2{
+    position: relative;
+    
+    right: 15px;
+    width: 18px;
+    height: 22px;
+    bottom: 2px;
+}
+
+.container4:hover{
+    color: black;
+    
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 #1f212348, 0 10px 10px 0 #1f212348;
+
+}
+
+section{
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    border: 3px solid rgb(255, 209, 252);
+    padding: 15px;
+    height: 550px;
+   
+    margin: auto;
+    width: 59%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: -240px;
+
+
+}
+
+img{
+    height: 175px;
+    width: 300px;
+    display: inline-block;
+    margin: 2px 15px
+
+    
+}
+
+.test1{
+    font-size: 20px;
+    text-align:justify;
+    font-style: italic;
+    color: #09b2d8;
+    
+
+}
+
+.vertical {
+    border-left: 6px solid black;
+    height: 600px;
+    margin-top: -185px;
+    position: absolute;
+    left: 300px;
+}
+
+.v2 {
+    border-left: 6px solid black;
+    height: 600px;
+    margin-top: -602px;
+    position: absolute;
+    right: 349px;
+}
+
+.link1 {
+    font-size: 25px;
+    margin-top: -590px;
+    margin-left: 1650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 569;
+}
+
+
+
+.link2 {
+    font-size: 19.6px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    
+   
+}
+
+.link2:hover {
+    color:#0075ff
+
+}
+
+
+
+.link3 {
+    font-size: 19.6px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    
+   
+}
+
+.link3:hover {
+    color:#0075ff
+
+}
+
+
+
+.link4 {
+    font-size: 19.6px;
+    margin-top: -590px;
+    margin-left: 1610px;
+   
+}
+
+.link4:hover {
+    color:#0075ff
+
+}
+
+
+
+.link5 {
+    font-size: 19.6px;
+    margin-top: -590px;
+    margin-left: 1610px;
+   
+}
+
+.link5:hover {
+    color:#0075ff
+
+}
+
+
+.link6 {
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 1700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 569;
+}
+
+.link7 {
+    font-size: 17px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.link8 {
+    font-size: 17px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.link9 {
+    font-size: 17px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link0 {
+    font-size: 17px;
+    margin-top: -590px;
+    margin-left: 1610px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+}s
